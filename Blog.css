@@ -1,105 +1,94 @@
-/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  body {
+body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(135deg, #e2f0cb, #c8e4f0); /* Lighter gradient background */
+    background: linear-gradient(135deg, #e2f0cb, #c8e4f0);
     color: #444;
     line-height: 1.6;
     padding: 0;
-  }
+}
   
-  /* Header Styles */
-  header {
-    background: linear-gradient(45deg, #76c7c0, #f7a1b5); /* Softer header colors */
+header {
+    background: linear-gradient(45deg, #76c7c0, #f7a1b5);
     color: #fff;
     padding: 2rem;
     text-align: center;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 1s ease-in; /* Fade-in animation */
-  }
+    animation: fadeIn 1s ease-in;
+}
   
-  @keyframes fadeIn {
+@keyframes fadeIn {
     from {
         opacity: 0;
     }
     to {
         opacity: 1;
     }
-  }
+}
   
-  header h1 {
+header h1 {
     font-family: poppines;
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: 2px;
-  }
+}
   
-  #coffee{
+#coffee {
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 1.9em;
+    font-size: 2rem;
     color: white;
-    align-items: center;
-  }
-  .highlight {
-    font-family: 'Times New Roman', Times, serif; /* Font style */
-    font-size: 1.5rem; /* Increased font size for prominence */
-    color: white; /* Text color */
-    margin: 0.5rem 0; /* Margin for spacing */
-    text-align: center; /* Center alignment */
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), /* Glowing effect */
-                 0 0 20px rgba(118, 199, 192, 0.5); /* Subtle color glow */
-    transition: text-shadow 0.3s ease; /* Smooth transition for hover effect */
+    margin: 0.5rem 0;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                 0 0 20px rgba(118, 199, 192, 0.5);
+    transition: text-shadow 0.3s ease;
 }
 
-.highlight:hover {
-    text-shadow: 0 0 15px rgba(255, 255, 255, 1), /* Enhanced glow on hover */
-                 0 0 30px rgba(118, 199, 192, 0.7); /* Brighter color glow */
+#coffee:hover {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1),
+                 0 0 30px rgba(118, 199, 192, 0.7);
 }
 
-  
-  header p {
+header p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     margin: 0.5rem 0;
-  }
-/* My Image Section */
+}
+
 .about img {
-    width: 150px; /* Set a specific width for the image */
-    height: 150px; /* Ensure the image is a perfect circle */
-    border-radius: 50%; /* Make the image circular */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     display: block;
-    margin: 0 auto 1.5rem; /* Center the image and add spacing below */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Soft shadow around the image */
-    object-fit: cover; /* Ensure the image maintains its aspect ratio */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effects */
-  }
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
   
-  .image-wrapper {
-    max-width: 300px; /* Limit the size of the image */
-    margin: 0 auto; /* Center the image */
-    border-radius: 50%; /* Make the image circular */
-    overflow: hidden; /* Ensures the image fits inside the circular frame */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Soft shadow around the image */
-  }
+.image-wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
   
-  .image-wrapper img {
+.image-wrapper img {
     width: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
-  }
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
   
-  .image-wrapper:hover img {
-    transform: scale(1.05); /* Slight zoom on hover */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Soft shadow on hover */
-  }
+.image-wrapper:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
   
-  
-  nav ul {
+nav ul {
     list-style: none;
     margin-top: 1rem;
     text-align: center;
@@ -107,11 +96,11 @@
 }
 
 nav ul li {
-    display: inline-block; /* Inline block for easier width control */
+    display: inline-block;
     margin: 0 20px;
-    padding: 10px 20px; /* Padding for the round shape */
-    background-color: #76c7c0; /* Softer background color */
-    border-radius: 30px; /* Round box */
+    padding: 10px 20px;
+    background-color: #76c7c0;
+    border-radius: 30px;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -124,127 +113,119 @@ nav ul li a {
 }
 
 nav ul li:hover {
-    background-color: #f7a1b5; /* Softer hover background */
-    transform: scale(1.1); /* Slight scaling on hover */
+    background-color: #f7a1b5;
+    transform: scale(1.1);
 }
-
   
-  /* Container Styles */
-  .container {
+.container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 2rem;
-  }
+}
   
-  /* Section Styles */
-  section {
+section {
     margin: 2rem 0;
-  }
+}
   
-  h2 {
+h2 {
     font-size: 2rem;
-    color: #76c7c0; /* Softer section title color */
+    color: #76c7c0;
     text-transform: uppercase;
     margin-bottom: 1rem;
     position: relative;
-  }
+}
   
-  h2:after {
+h2:after {
     content: '';
     display: block;
     width: 60px;
     height: 4px;
-    background-color: #f7a1b5; /* Softer line under titles */
+    background-color: #f7a1b5;
     margin-top: 0.5rem;
     transition: width 0.3s ease;
-  }
+}
   
-  h2:hover:after {
+h2:hover:after {
     width: 100px;
-  }
+}
   
-  .about, .projects, .skills, .contact {
+.about, .projects, .skills, .contact {
     background-color: #fff;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-  }
+}
   
-  .about:hover, .projects:hover, .skills:hover, .contact:hover {
+.about:hover, .projects:hover, .skills:hover, .contact:hover {
     transform: translateY(-10px);
-  }
+}
   
-  /* Project Section */
-  .projects .project {
+.projects .project {
     margin-bottom: 2rem;
-  }
+}
   
-  .project h3 {
+.project h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     color: #444;
-  }
+}
   
-  .project p {
+.project p {
     margin-bottom: 0.5rem;
-  }
+}
   
-  .project a {
-    color: #76c7c0; /* Softer project link color */
+.project a {
+    color: #76c7c0;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
-  }
+}
   
-  .project a:hover {
-    color: #f7a1b5; /* Softer hover color */
-  }
+.project a:hover {
+    color: #f7a1b5;
+}
   
-  /* Skills Section */
-  .skills ul {
+.skills ul {
     list-style: none;
     margin-top: 1rem;
-  }
+}
   
-  .skills ul li {
-    background-color: #ffe0b2; /* Lighter skill item background */
+.skills ul li {
+    background-color: #ffe0b2;
     padding: 0.7rem;
     margin-bottom: 0.7rem;
     border-radius: 5px;
     font-weight: bold;
-  }
+}
   
-  /* Contact Section */
-  a {
+a {
     text-decoration: none;
-  }
+}
   
-  /* Responsive Styles */
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     header h1 {
-      font-size: 2.5rem;
+        font-size: 2.5rem;
     }
     
     header p {
-      font-size: 1rem;
+        font-size: 1rem;
     }
   
     nav ul li {
-      display: block;
-      margin: 10px 0;
+        display: block;
+        margin: 10px 0;
     }
   
     section {
-      margin: 1.5rem 0;
+        margin: 1.5rem 0;
     }
   
     h2 {
-      font-size: 1.8rem;
+        font-size: 1.8rem;
     }
   
     .container {
-      padding: 1rem;
+        padding: 1rem;
     }
-  }
-  
+}
