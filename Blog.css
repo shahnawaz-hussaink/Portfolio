@@ -46,6 +46,23 @@
     color: white;
     align-items: center;
   }
+  .highlight {
+    font-family: 'Times New Roman', Times, serif; /* Font style */
+    font-size: 1.5rem; /* Increased font size for prominence */
+    color: white; /* Text color */
+    margin: 0.5rem 0; /* Margin for spacing */
+    text-align: center; /* Center alignment */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), /* Glowing effect */
+                 0 0 20px rgba(118, 199, 192, 0.5); /* Subtle color glow */
+    transition: text-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.highlight:hover {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1), /* Enhanced glow on hover */
+                 0 0 30px rgba(118, 199, 192, 0.7); /* Brighter color glow */
+}
+
+  
   header p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
