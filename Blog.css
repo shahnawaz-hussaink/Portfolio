@@ -230,7 +230,8 @@ a {
     }
 }
 footer {
-    background-color: transparent;
+    background-color: skyblue;
+    border-radius: 15px;
     color: white;
     text-align: center;
     padding: 1rem;
