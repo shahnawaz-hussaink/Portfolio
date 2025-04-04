@@ -46,6 +46,7 @@ header h1 {
 }
 
 #coffee {
+    height: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     color: white;
