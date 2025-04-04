@@ -38,10 +38,14 @@ header h1 {
 }
 
 #main-text {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 500;
   margin: 5px 0;
   color: white;
+  font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                 0 0 20px rgba(118, 199, 192, 0.5);
+    transition: text-shadow 0.3s ease;
 }
 
 #coffee {
