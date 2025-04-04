@@ -2,7 +2,7 @@ const toggleBtn = document.getElementById("theme-toggle");
 const body = document.body;
 
 
-const texts = ["Turning Caffeine into Code "];
+const texts = ["Computer Science Student", "Web Developer" ,"DSA Enthusiast "];
 let index = 0;
 let charIndex = 0;
 const speed = 100;
