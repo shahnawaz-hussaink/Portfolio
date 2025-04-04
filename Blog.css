@@ -37,10 +37,17 @@ header h1 {
     font-weight: 700;
     letter-spacing: 2px;
 }
-  
+
+#main-text {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 5px 0;
+  color: white;
+}
+
 #coffee {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: 14px;
     color: white;
     margin: 0.5rem 0;
     text-align: center;
