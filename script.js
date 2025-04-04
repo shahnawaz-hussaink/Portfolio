@@ -6,7 +6,7 @@ toggleBtn.addEventListener("click", () => {
   toggleBtn.textContent = body.classList.contains("dark-mode") ? "☀️ Light Mode" : "🌙 Dark Mode";
 });
 
-const texts = ["Turning Caffeine into Code ", "Web Dev Enthusiast ", "DSA Explorer ", "Tech Learner "];
+const texts = ["Turning Caffeine into Code ☕", "Web Dev Enthusiast 💻", "DSA Explorer 🔍", "Tech Learner 🚀"];
 let index = 0;
 let charIndex = 0;
 const speed = 100;
