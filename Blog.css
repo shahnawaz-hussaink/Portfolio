@@ -13,6 +13,7 @@ body {
 }
   
 header {
+    height: 280px;
     background: linear-gradient(45deg, #76c7c0, #f7a1b5);
     color: #fff;
     padding: 2rem;
